@@ -1,0 +1,62 @@
+.mainbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ticbox{
+    display: grid;
+    grid-template-columns: repeat(3,5vw);
+    grid-template-rows: repeat(3,5vw);
+    grid-gap: 0;
+}
+
+.valuebox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    height: 4rem;
+    width: 4rem;
+    transition: background-color 0.2s ease;
+}
+
+.valuebox:hover{
+    background-color: rgb(187, 121, 249);
+}
+
+#btn{
+    margin: 2rem;
+    border-radius: 10px;
+    border: none;
+}
+
+#btn:hover{
+    background-color: rgb(187, 121, 249);
+    border: none;
+    border-radius: 10px;
+}
+
+.valuespan{
+    font-size: 3.5rem;
+}
+
+
+#box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.turn{
+   
+}
+
+#turndiv{
+    margin-top: 9.5rem;
+    font-size: 2.3rem;
+    display: flex;
+    flex-direction: column;
+}
